@@ -1,12 +1,11 @@
 package com.pluralsight.blog;
 
 import com.pluralsight.blog.data.CategoryRepository;
+import com.pluralsight.blog.data.PostRepository;
 import com.pluralsight.blog.model.Category;
-import com.pluralsight.blog.model.Post;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
-import com.pluralsight.blog.data.PostRepository;
 import org.jsoup.select.Elements;
 import org.junit.Before;
 import org.junit.Test;

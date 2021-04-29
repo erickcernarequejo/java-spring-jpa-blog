@@ -1,8 +1,7 @@
 package com.pluralsight.blog;
 
-import com.pluralsight.blog.model.Post;
 import com.pluralsight.blog.data.PostRepository;
-import org.junit.Before;
+import com.pluralsight.blog.model.Post;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
